@@ -63,7 +63,7 @@ fun TextToSpeechExample() {
         TextField(
             value = text,
             onValueChange = { text = it },
-            label = { Text("Text") }
+            label = { Text("Write Text") }
         )
         Spacer(modifier = Modifier.height(16.dp))
 
