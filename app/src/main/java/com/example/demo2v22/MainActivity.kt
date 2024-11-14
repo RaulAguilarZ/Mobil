@@ -72,7 +72,7 @@ fun TextToSpeechExample() {
                 if (text.isNotBlank()) {
                     tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, null)
                 } else {
-                    Toast.makeText(context, "Write .......", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(context, "Write ..........", Toast.LENGTH_SHORT).show()
                 }
             }
         ) {
